@@ -11,6 +11,13 @@ namespace Program
     /// </summary>
     class Die
     {
+        private byte faceValue;
+        private bool isHeld;
+        private byte numberOfSides;
 
+        public byte Roll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
