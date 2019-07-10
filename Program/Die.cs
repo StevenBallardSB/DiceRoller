@@ -28,6 +28,7 @@ namespace Program
 
         public Die(byte numberOfSides)
         {
+            this.numberOfSides = numberOfSides;
             Roll();
         }
 

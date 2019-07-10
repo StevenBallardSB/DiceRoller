@@ -17,6 +17,7 @@ namespace Program
             Console.WriteLine(die1.Roll());
             Console.WriteLine(die2.Roll());
             Console.WriteLine(die3.Roll());
+            Console.ReadKey();
         }
     }
 }
